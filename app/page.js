@@ -256,7 +256,7 @@ const JobCard = ({ job, onEdit, onDelete }) => (
       href={job.job_link}
       target="_blank"
       rel="noopener noreferrer"
-      className="mt-10 inline-block text-white/55 hover:text-white text-sm  font-semibold underline-offset-4 hover:underline"
+      className="mt-10 inline-block text-white/55 group-hover:text-white text-sm  font-semibold underline-offset-4 hover:underline"
     >
       View Job →
     </a>
@@ -287,7 +287,7 @@ const Header = ({ onLogout }) => (
 // ====== Main App ======
 export default function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
-  const [isCheckingAuth, setIsCheckingAuth] = useState(true); // ✅ NEW FIX
+  const [isCheckingAuth, setIsCheckingAuth] = useState(true);
   const [jobs, setJobs] = useState([]);
   const [editingJob, setEditingJob] = useState(null);
   const [showForm, setShowForm] = useState(false);
