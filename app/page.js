@@ -18,8 +18,8 @@ import Image from "next/image";
 import logo from "@/public/logo.png";
 
 // ====== API CONFIG ======
-const API_BASE = "https://eduden.mrshakil.com/api/job-opening";
-const LOGIN_API = "https://eduden.mrshakil.com/api/login/";
+const API_BASE = "https://api.eduden.io/api/job-opening";
+const LOGIN_API = "https://api.eduden.io/api/login/";
 
 // ====== Confirm Dialog ======
 const ConfirmDialog = ({

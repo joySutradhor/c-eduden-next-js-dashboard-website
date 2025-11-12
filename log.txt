@@ -2,6 +2,6 @@ git : https://github.com/joySutradhor/c-eduden-next-js-dashboard-website.git
 
 live : https://c-eduden-next-js-dashboard-website.vercel.app/
 
-last fix : dashboard make and responsive for create , update and delete 
+last fix : responsive fix and brocure upload again
 
 maintain : vercel , fardeen sir  , sending giz code
